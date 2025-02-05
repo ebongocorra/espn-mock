@@ -1,0 +1,91 @@
+{
+  "NFL": [
+    { "name": "Buffalo Bills", "abbrev": "BUF", "wins": 12, "losses": 5 },
+    { "name": "Miami Dolphins", "abbrev": "MIA", "wins": 10, "losses": 7 },
+    { "name": "New England Patriots", "abbrev": "NE", "wins": 5, "losses": 18 },
+    { "name": "New York Jets", "abbrev": "NYJ", "wins": 9, "losses": 8 },
+
+    { "name": "Baltimore Ravens", "abbrev": "BAL", "wins": 9, "losses": 8 },
+    { "name": "Cincinnati Bengals", "abbrev": "CIN", "wins": 8, "losses": 9 },
+    { "name": "Cleveland Browns", "abbrev": "CLE", "wins": 4, "losses": 13 },
+    { "name": "Pittsburgh Stealers", "abbrev": "PIT", "wins": 11, "losses": 6 },
+
+    { "name": "Houston Texans", "abbrev": "HOU", "wins": 11, "losses": 6 },
+    { "name": "Indianapolis Colts", "abbrev": "IND", "wins": 9, "losses": 8 },
+    {
+      "name": "Jacksonville Jaguars",
+      "abbrev": "JAX",
+      "wins": 12,
+      "losses": 5
+    },
+    { "name": "Tennessee Titans", "abbrev": "TN", "wins": 8, "losses": 9 },
+
+    { "name": "Denver Broncos", "abbrev": "DEN", "wins": 10, "losses": 7 },
+    { "name": "Kansas City Chiefs", "abbrev": "KC", "wins": 14, "losses": 3 },
+    { "name": "Las Vegas Raiders", "abbrev": "LV", "wins": 9, "losses": 8 },
+    {
+      "name": "Los Angeles Chargers",
+      "abbrev": "LAC",
+      "wins": 7,
+      "losses": 10
+    },
+
+    { "name": "Dallas Cowboys", "abbrev": "DAL", "wins": 13, "losses": 4 },
+    { "name": "New York Giants", "abbrev": "NYG", "wins": 2, "losses": 15 },
+    { "name": "Philadelphia Eagles", "abbrev": "PHI", "wins": 11, "losses": 6 },
+    {
+      "name": "Washington Commanders",
+      "abbrev": "WSH",
+      "wins": 6,
+      "losses": 11
+    },
+
+    { "name": "Chicago Bears", "abbrev": "CHI", "wins": 11, "losses": 6 },
+    { "name": "Detroit Lions", "abbrev": "DET", "wins": 7, "losses": 10 },
+    { "name": "Green Bay Packers", "abbrev": "GB", "wins": 6, "losses": 11 },
+    { "name": "Minnesota Vikings", "abbrev": "MN", "wins": 9, "losses": 8 },
+
+    { "name": "Atlanta Falcons", "abbrev": "ATL", "wins": 12, "losses": 5 },
+    { "name": "Carolina Panthers", "abbrev": "CAR", "wins": 11, "losses": 6 },
+    { "name": "New Orleans Saints", "abbrev": "NO", "wins": 7, "losses": 10 },
+    { "name": "Tampa Bay Buccaneers", "abbrev": "TB", "wins": 5, "losses": 12 },
+
+    { "name": "Arizona Cardinals", "abbrev": "AZ", "wins": 13, "losses": 4 },
+    { "name": "Los Angeles Rams", "abbrev": "LAR", "wins": 8, "losses": 9 },
+    { "name": "San Francisco 49ers", "abbrev": "SF", "wins": 10, "losses": 7 },
+    { "name": "Seattle Seahawks", "abbrev": "SEA", "wins": 8, "losses": 9 }
+  ],
+
+  "MLB": [
+    "Boston Red Sox",
+    "New York Yankees",
+    "Tampa Bay Rays",
+    "Baltimore Orioles",
+    "Toronto Blue Jays",
+    "Chicago White Sox",
+    "Minnesota Twins",
+    "Kansas City Royals",
+    "Cleveland Guardians",
+    "Detroit Tigers",
+    "Seattle Mariners",
+    "Texas Rangers",
+    "Los Angeles Angels",
+    "Oakland Athletics",
+    "Houston Astros",
+    "New York Mets",
+    "Washington Nationals",
+    "Philadelphia Phillies",
+    "Miami Marlins",
+    "Atlanta Braves",
+    "Pittsburgh Pirates",
+    "Cincinnati Reds",
+    "St. Louis Cardinals",
+    "Milwaukee Brewers",
+    "Chicago Cubs",
+    "Los Angeles Dodgers",
+    "San Francisco Giants",
+    "Colorado Rockies",
+    "San Diego Padres",
+    "Arizona Diamondbacks"
+  ]
+}

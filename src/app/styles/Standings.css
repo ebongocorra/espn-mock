@@ -1,0 +1,30 @@
+
+.outer_table{
+    background-color: white;
+}
+
+.record-wins {
+    @apply pl-10
+}
+
+.team-1{
+    border-right: 1px solid gray;
+    max-width: 100px
+}
+.standings{
+    overflow-x: auto;
+    background-color: white;
+}
+table {
+    @apply border rounded-sm;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}

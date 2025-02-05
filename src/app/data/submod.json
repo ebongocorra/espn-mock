@@ -1,0 +1,48 @@
+{
+  "data": {
+    "ESPNPlus": [
+      "NCAA Men's Basketball",
+      "NCAA Women's Basketball",
+      "NFL Prime Time",
+      "30 For 30"
+    ],
+    "QuickLinks": [
+        "CFP Bracket",
+        "CFP Bracket",
+        "CFP Bracket",
+        "CFP Bracket",
+        "CFP Bracket",
+        "CFP Bracket"
+    ],
+    "Customize": [
+
+    ],
+    "Fantasy": [
+        "Football",
+        "Baseball",
+        "Hockey",
+        "Basketball"
+    ],
+    "ESPNSites": [
+        "ESPNw",
+        "ESPNw",
+        "ESPNw",
+        "ESPNw",
+        "ESPNw",
+        "ESPNw"
+    ],
+    "ESPNApps": [
+        "ESPN",
+        "Fantasy",
+        "Tournament"
+    ],
+    "Follow": [
+        "FB",
+        "Twitter",
+        "IG",
+        "Snapchat",
+        "TikTok",
+        "Yahoo"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "NFL": [
+        {"wins": 6, "losses": 11},
+        {"wins": 1, "losses": 16},
+        {"wins": 12, "losses": 5},
+        {"wins": 10, "losses": 7},
+        {"wins": 5, "losses": 12},
+        {"wins": 11, "losses": 6},
+        {"wins": 8, "losses": 9},
+        {"wins": 9, "losses": 8},
+        {"wins": 8, "losses": 9},
+        {"wins": 15, "losses": 2},
+        {"wins": 10, "losses": 7},
+        {"wins": 11, "losses": 6},
+        {"wins": 6, "losses": 11},
+        {"wins": 7, "losses": 10},
+        {"wins": 5, "losses": 12},
+        {"wins": 9, "losses": 8},
+        {"wins": 13, "losses": 4},
+        {"wins": 4, "losses": 13},
+        {"wins": 5, "losses": 12},
+        {"wins": 6, "losses": 11},
+        {"wins": 7, "losses": 10},
+        {"wins": 12, "losses": 5},
+        {"wins": 7, "losses": 10},
+        {"wins": 10, "losses": 7},
+        {"wins": 11, "losses": 6},
+        {"wins": 14, "losses": 3},
+        {"wins": 8, "losses": 9},
+        {"wins": 9, "losses": 8},
+        {"wins": 2, "losses": 15},
+        {"wins": 17, "losses": 0},
+        {"wins": 5, "losses": 12},
+        {"wins": 11, "losses": 6}
+    ]
+        
+    
+}

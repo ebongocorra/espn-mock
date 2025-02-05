@@ -1,0 +1,8 @@
+.score-display{
+    @apply bg-slate-200;
+    display: grid;
+    /* border-color: black;
+    border-width: 2px; */
+    padding: 50px;
+   
+}

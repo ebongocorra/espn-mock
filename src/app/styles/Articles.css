@@ -1,0 +1,113 @@
+.article{
+    @apply bg-white;
+    /* border-color: black;
+    border-width: 2px; */
+    padding: 5px;
+    min-width: 500px;
+    max-width: 700px;
+    min-height: 300px;
+    border-radius: 15px;
+    :hover{
+        color: blue
+    }
+}
+
+.home{
+    height: 2000px;
+}
+/* grid min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-slate-200 */
+.article-list{
+    @apply  p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-slate-200;
+    display: grid;
+    gap: 20px
+    /* grid-template-rows: repeat */
+
+}
+
+.article-list > :last-child{
+    grid-column: 3;
+    /* grid-row: 1 / span 2; */
+}
+.headlines_block{
+    @apply bg-white;
+    max-width: 500px;
+    border-radius: 12px;
+    display: block;
+    max-height: 550px;
+    font: 14px -apple-system, BlinkMacSystemFont, "Roboto", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.modules_block{
+    @apply bg-white;
+    max-width: 250px;
+    border-radius: 12px;
+    display: block;
+    max-height: 900px;
+    font: 14px -apple-system, BlinkMacSystemFont, "Roboto", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+.first-headlines-block{
+
+}
+.sub-modules-grid{
+    grid-template-columns: repeat(6, auto);
+    width: 270px;
+}
+
+.headline{
+    @apply pb-2.5 pt-2.5;
+    border-color: grey;
+    border-bottom: 10px;
+}
+.articles-grid{
+    grid-template-columns: repeat(7, auto);
+    gap: 5px
+}
+
+.articles-grid > :first-child{
+    img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        border-radius: 15px
+    }
+    .article{
+        padding: 0px;
+    }
+}
+
+.header {
+    position: absolute;
+    top: 650px;
+    left: 0;
+  }
+
+.subscribe{
+    @apply text-black font-bold py-2 px-4 pt-2.5 pb-2.5;
+    background-color: #fab200;
+    border-radius: 25px;
+    font-size: 12px;
+    height: 40px;
+    width: 200px
+}
+
+.subscribe:hover{
+    background-color: #f9c64f;
+}
+
+img{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 250px;
+    border-radius: 15px
+}
+
+hr {
+    @apply text-slate-200;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:gray;
+    height: 1px;
+  }
