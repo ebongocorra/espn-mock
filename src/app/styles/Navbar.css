@@ -219,6 +219,13 @@ width: auto;
   float: right;
 }
 
+.espn-logo-1{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto
+}
+
 .first-half {
   width: 40%;
   float: left;

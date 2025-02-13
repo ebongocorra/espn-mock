@@ -12,15 +12,22 @@ export const Navbar = () => {
         />
         <div className="fixed-head">
           <div className="first-half">
-            <li className="text-white">
-              <a href="../">ESPN</a>
+            <li className="text-white bg-red-600">
+              <a href="../">
+                <img
+                  src={
+                    "https://a.espncdn.com/redesign/assets/img/logos/logo-espn-82x20@2x.png"
+                  }
+                  className = "espn-logo-1"
+                />
+              </a>
             </li>
             <li>
               <div className="subnav">
                 <a href="default.asp">NFL</a>
                 <div className="outer-triangle">
-                    <div className="subnav-triangle"></div>
-                  </div>
+                  <div className="subnav-triangle"></div>
+                </div>
                 <div className="subnav-content1">
                   <div className="grid grid-cols-1 grid-gap-5">
                     <a>Home</a>
@@ -33,7 +40,9 @@ export const Navbar = () => {
                   </div>
                   <div className="team-sub">
                     {teams.NFL.map((team) => (
-                      <a className="text-black" key = {"team"}>{team.name}</a>
+                      <a className="text-black" key={"team"}>
+                        {team.name}
+                      </a>
                     ))}
                   </div>
                 </div>
@@ -43,8 +52,8 @@ export const Navbar = () => {
               <div className="subnav">
                 <a href="news.asp">MLB</a>
                 <div className="outer-triangle">
-                    <div className="subnav-triangle"></div>
-                  </div>
+                  <div className="subnav-triangle"></div>
+                </div>
                 <div className="subnav-content1">
                   <div className="grid grid-cols-1">
                     <a>Home</a>
@@ -67,8 +76,8 @@ export const Navbar = () => {
               <div className="subnav">
                 <a href="contact.asp">NBA</a>
                 <div className="outer-triangle">
-                    <div className="subnav-triangle"></div>
-                  </div>
+                  <div className="subnav-triangle"></div>
+                </div>
                 <div className="subnav-content">
                   <a>Home</a>
                   <a>Scores</a>
@@ -84,8 +93,8 @@ export const Navbar = () => {
               <div className="subnav">
                 <a href="about.asp">NCAA</a>
                 <div className="outer-triangle">
-                    <div className="subnav-triangle"></div>
-                  </div>
+                  <div className="subnav-triangle"></div>
+                </div>
                 <div className="subnav-content">
                   <a>Home</a>
                   <a>Scores</a>
@@ -101,8 +110,8 @@ export const Navbar = () => {
               <div className="subnav">
                 <a href="about.asp">More Sports</a>
                 <div className="outer-triangle">
-                    <div className="subnav-triangle"></div>
-                  </div>
+                  <div className="subnav-triangle"></div>
+                </div>
                 <div className="subnav-content">
                   <a>Soccer</a>
                   <a>Cricket</a>
@@ -141,8 +150,8 @@ export const Navbar = () => {
               <div className="subnav">
                 <a>ESPN+</a>
                 <div className="outer-triangle">
-                    <div className="subnav-triangle"></div>
-                  </div>
+                  <div className="subnav-triangle"></div>
+                </div>
                 <div className="subnav-content">
                   <h1>Best of ESPN+</h1>
                   <a>What is ESPN Bet?</a>
@@ -153,8 +162,8 @@ export const Navbar = () => {
               <div className="subnav">
                 <a>ESPN BET</a>
                 <div className="outer-triangle">
-                    <div className="subnav-triangle"></div>
-                  </div>
+                  <div className="subnav-triangle"></div>
+                </div>
                 <div className="subnav-content">
                   <a>ESPN Bet</a>
                   <a>What is ESPN Bet?</a>
@@ -165,8 +174,8 @@ export const Navbar = () => {
               <div className="subnav">
                 <a>Watch</a>
                 <div className="outer-triangle">
-                    <div className="subnav-triangle"></div>
-                  </div>
+                  <div className="subnav-triangle"></div>
+                </div>
                 <div className="subnav-content">
                   <a>ESPN Bet</a>
                   <a>What is ESPN Bet?</a>
@@ -177,8 +186,8 @@ export const Navbar = () => {
               <div className="subnav">
                 <a>Fantasy</a>
                 <div className="outer-triangle">
-                    <div className="subnav-triangle"></div>
-                  </div>
+                  <div className="subnav-triangle"></div>
+                </div>
                 <div className="subnav-content">
                   <a>ESPN Bet</a>
                   <a>What is ESPN Bet?</a>

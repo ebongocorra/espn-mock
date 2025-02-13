@@ -16,8 +16,7 @@ export const Articles = () => {
   return photos.map((photo, index) => (
     <div className = "pb-5">
       <div className="article">
-      {/* <div className = "font-bold text-sm">NFL Playoffs</div> */}
-        <img src={photo} />
+        <img src={photo} className = "article-image" />
         <p className="font-bold">{headlines.News[index]}</p>
       </div>
     </div>
